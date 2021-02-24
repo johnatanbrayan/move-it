@@ -1,4 +1,4 @@
-import { ExperienceBar } from "../components/ExperienceBar";
+import { ExperienceBar } from '../components/ExperienceBar';
 
 export default function Home() {
   return (
