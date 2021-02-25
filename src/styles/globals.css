@@ -19,6 +19,7 @@
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
 }
+
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -31,19 +32,10 @@
   }
 }
 
-.container {
-  height: 100vh;
-  max-width: 995px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-  flex-direction: column;
-}
-
 body {
   background: var(--background);
   color: var(--text);
+  -webkit-font-smoothing: antialiased;
 }
 
 body,
