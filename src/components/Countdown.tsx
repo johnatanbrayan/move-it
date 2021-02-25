@@ -4,8 +4,8 @@ export const Countdown = () => {
   return (
     <div className={style.countdownContainer}>
       <div>
-        <span>2</span>
-        <span>5</span>
+        <span>3</span>
+        <span>0</span>
       </div>
       <span>:</span>
       <div>
