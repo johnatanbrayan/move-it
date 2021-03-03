@@ -1,0 +1,27 @@
+.challengeBoxContainer {
+  height: 100%;
+  background: var(--white);
+  padding: 1.4rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.challengeBoxNotActive {
+  max-width: 271px;
+  align-items: center;
+}
+
+.challengeBoxNotActive > div {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.challengeBoxNotActive > div > img {
+  width: 35px;
+}
+
+.challengeBoxNotActive > div > p {
+  margin-left: 1.5rem;
+}
